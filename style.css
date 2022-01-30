@@ -41,6 +41,12 @@ h3 {
     font-size: 24px;
 }
 
+h4 {
+    font-weight: bold;
+    font-size: 24px;;
+    color: black;
+}
+
 ul {
     font-size: 18px;
     color: #E5E7EB;
@@ -91,7 +97,7 @@ p {
     flex-direction: column;
     align-items: center;
     margin-top: 30px;
-    gap: 30px;
+    gap: 50px;
 }
 
 .infoimage {
@@ -115,4 +121,21 @@ p {
     align-items: center;
     gap: 50px;
 }
- 
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 75px 300px;
+}
+
+.quotetext {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quoteauthor {
+    align-self: flex-end;
+}
