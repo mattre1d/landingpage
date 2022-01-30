@@ -172,3 +172,10 @@ p {
     padding: 8px 30px;
     font-weight: bold;
 }
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    padding: 30px;
+    justify-content: center;
+}
