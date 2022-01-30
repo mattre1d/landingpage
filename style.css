@@ -70,6 +70,10 @@ ul {
     font-size: 18px;
 }
 
+.herotext {
+    margin: 15px 0px;
+}
+
 .image {
     display: flex;
     width: 600px;
@@ -89,7 +93,7 @@ button {
 }
 
 p {
-    margin: 15px 0px;
+    color: #E5E7EB;
 }
 
 .info {
@@ -134,8 +138,37 @@ p {
     font-weight: 300;
     font-style: italic;
     color: #1F2937;
+    margin-bottom: 5px;
 }
 
 .quoteauthor {
     align-self: flex-end;
+}
+
+.signupcontainer {
+    display: flex;
+    justify-content: center;
+    margin: 100px 0px;
+}
+
+.signup{
+    display: flex;
+    background-color: #3882F6;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    padding: 50px 150px;
+    width: 80%;
+}
+.signupcontent {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.button2 {
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 8px 30px;
+    font-weight: bold;
 }
